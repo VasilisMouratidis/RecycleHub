@@ -211,4 +211,4 @@ This project is currently not licensed. You may add a license depending on how y
 
 ## Author
 
-Developed by Bill Mour.
+Developed by Vasilis Mouratidis.
