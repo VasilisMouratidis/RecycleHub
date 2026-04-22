@@ -9,7 +9,7 @@ function RecyclingMap({ selectedCategory }) {
   const [points, setPoints] = useState([]);
   const [selected, setSelected] = useState(null);
 
-  const { isLoaded } = useLoadScript({ googleMapsApiKey: 'AIzaSyDF3pzo4iPOpBr4X49HvhM2Tw1x9fLGvAA' });
+  const { isLoaded } = useLoadScript({ googleMapsApiKey: import.meta.env.VITE_GOOGLE_MAPS_API_KEY });
 
   const fetchData = () => {
     axios.get('http://localhost:5000/api/recycling-points')
