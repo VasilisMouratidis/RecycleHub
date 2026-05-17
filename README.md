@@ -81,7 +81,7 @@ Make sure you have installed:
 Clone the repository:
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/RecycleHub.git
+git clone https://github.com/VasilisMouratidis/RecycleHub.git
 cd RecycleHub
 ```
 
@@ -107,7 +107,7 @@ Example:
 
 ```env
 PORT=5000
-MONGODB_URI=your_mongodb_connection_string_here
+MONGODB_URI=mongodb+srv://BillMour:Vas1l31os051099@cluster0.qrtrsch.mongodb.net/
 ```
 
 > Important: Do not upload the `.env` file to GitHub. Use `.env.example` to show the required variables without exposing private credentials.
